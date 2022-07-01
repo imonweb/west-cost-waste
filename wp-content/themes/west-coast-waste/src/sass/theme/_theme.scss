@@ -1,0 +1,46 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+
+$primary: #FFBC00;
+$primary-500: #DFA503;
+$secondary: #000;
+$secondary-300: #3F3F3F;
+
+body {
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.top-header {
+  background: #000;
+  height: 115px;
+  display: flex;  
+  align-items: center;
+  background-image:url(../img/header-top-bg.jpg);
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  .top-header-contact {
+    display: flex;
+    justify-content: flex-end;
+    
+    a {
+      display: inline-block;
+      color: #fff;
+      border: 1px solid $primary;
+      padding: 0.5em 1em;
+      background-color: #000;
+      border-radius: 1.5em;
+      text-decoration: none;
+      font-size: 1rem;
+      margin-left: 1em;
+      &:hover {
+        color: $primary-500;
+        background-color: #fff;
+      }
+      fa {
+        color: $primary;
+        margin-right: 0.5em;
+      }
+    }
+  }
+}
