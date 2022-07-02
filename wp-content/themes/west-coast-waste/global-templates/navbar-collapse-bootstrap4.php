@@ -11,7 +11,7 @@ defined( 'ABSPATH' ) || exit;
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
-<nav id="main-nav" class="navbar navbar-expand-lg navbar-dark bg-primary" aria-labelledby="main-nav-label">
+<nav id="main-nav" class="navbar navbar-expand-lg navbar-dark" aria-labelledby="main-nav-label">
 
 	<!-- <h2 id="main-nav-label" class="screen-reader-text"> -->
 		<?php //esc_html_e( 'Main Navigation', 'understrap' ); ?>
@@ -21,6 +21,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 <?php // if ( 'container' === $container ) : ?>
 	<div class="container">
 <?php // endif; ?>
+
+	<div class="search-input-holder">
+ 
+			<div class="title">Quote:</div>
+			<input type="text" placeholder="Type your suburb here">
+ 
+	</div>
 
 		<!-- Your site title as branding in the menu -->
 		<!--  -->

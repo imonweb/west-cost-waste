@@ -17134,4 +17134,33 @@ body {
   margin-right: 0.5em;
 }
 
+#main-nav {
+  background: #3F3F3F;
+  border-top: 1px solid #67686A;
+  border-bottom: 1px solid #67686A;
+}
+#main-nav .search-input-holder {
+  border: 8px solid #FFBC00;
+  background-color: #fff;
+  padding: 30px 10px;
+  width: 300px;
+  border-radius: 15px;
+  margin-top: -30px;
+  margin-bottom: -30px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+#main-nav #main-menu li a {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#main-nav #main-menu li a.current-item a {
+  color: #FFBC00;
+}
+
 /*# sourceMappingURL=theme.css.map */
